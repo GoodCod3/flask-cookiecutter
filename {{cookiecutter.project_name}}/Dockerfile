@@ -10,8 +10,6 @@ COPY code/requirements.txt requirements.txt
 
 COPY . /code
 
-RUN ls -la
-
 RUN python3.8 -m pip install --upgrade pip
 
 RUN python3.8 -m pip install -r requirements.txt
