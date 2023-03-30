@@ -1,0 +1,3 @@
+# Index documentation
+
+Hello world.

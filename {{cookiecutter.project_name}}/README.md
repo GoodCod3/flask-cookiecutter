@@ -1,12 +1,8 @@
 # How to develop
-## Install pip dependencies
-### * Requirements
-* Python 3
+## Execute project in local
 
-`pip install -r code/requirements.txt`
+`docker-compose up`
 
-### * Run the web server
+### Open the localhost
 
-`make run`
-
-Documentation: https://docs.google.com/document/d/1go03dTv0eQsskJogIGngQfBtj517dI_7/edit?usp=sharing&ouid=117704231016736496645&rtpof=true&sd=true
+`http://127.0.0.1:5000/version`

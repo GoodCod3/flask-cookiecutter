@@ -1,0 +1,7 @@
+site_name: 'Documentación de {{cookiecutter.project_name}}'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
