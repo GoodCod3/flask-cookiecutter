@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ms-tiber-com-service-template
+  description: Cookicutter template for new Flask services
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - tiber
+  
+spec:
+  type: service
+  lifecycle: development
+  owner: tiber-team
