@@ -1,6 +1,9 @@
 PYTHON=python
+FILENAME=code/web.py
 
-
+run:
+	export FLASK_DEBUG=True; export PORT=8080; ${PYTHON} ${FILENAME}
+	
 test:
 	poetry run ${PYTHON} -m unittest discover code/ "test_*.py"
 
