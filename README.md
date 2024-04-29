@@ -1,9 +1,7 @@
 # How to create new service
 
 ## Clone template repository
-```bash
-git clone git@bitbucket.org:i2tic/ms-tiber-com-service-template.git
-```
+After clone this repository, run:
 
 ## Install cookiecutter dependency
 You can use a virtualenv to install this dependency.
@@ -13,6 +11,6 @@ pip install cookiecutter
 
 ## Create new service from template
 ```bash
-cookiecutter ms-tiber-com-service-template/
+cookiecutter flask-cookiecutter/
 ```
 This command will ask a series of questions from the CLI to create the service.
